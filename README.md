@@ -1,5 +1,7 @@
 # dark-dc
 
+## [2020-07-23 Release](https://github.com/lunarinside/dark-dc/releases/tag/1.0.0)
+
 ![서버 샀죠.](https://user-images.githubusercontent.com/68681398/88279452-0fbdd200-cd1f-11ea-9e23-e5f576ad9c1f.png)
 
 ![빠삐놈](https://user-images.githubusercontent.com/68681398/88280002-fbc6a000-cd1f-11ea-8d93-54831bcc76be.png)
