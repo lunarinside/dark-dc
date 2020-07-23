@@ -1,0 +1,12 @@
+.dark .view_content_wrap, .dark .comment_wrap, .dark .cmt_txt_cont textarea {
+  color: #888888;
+}
+
+.dark .btn_recommend_box {
+  background-color: transparent;
+}
+
+.dark .cmt_write_box, .dark .reply_box, .dark .user_info_input.id input, .dark .cmt_write_box .user_info_input.id > label, .dark .cmt_txt_cont textarea, .dark .pop_wrap {
+  background-color: #303030;
+  color: #888888;
+}

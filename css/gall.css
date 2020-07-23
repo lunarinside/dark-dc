@@ -1,0 +1,27 @@
+.dark .left_content, .dark .login_box, .dark .under_paging, .dark .pop_wrap {
+  background-color: transparent;
+}
+
+.dark .visit_history, .dark .box_head, .dark .cate_tit, .dark .user_option {
+  background-color: #373737;
+}
+
+.dark .head_tit a, .dark .head_tit, .dark .visit_history .tit, .dark .cate_tit {
+  color: #4c5790;
+}
+
+.dark .minor_wrap.gallmain .left_content .mgall_info .txt, .dark .minor_wrap.gallmain .visit_list li a, .dark .page_num {
+  color: #888888;
+}
+
+.dark .hot_gall_box .rank_list li .rank_txt, .dark .mgall_list_wrap a, .dark .mini_list_wrap a, .dark .cate ul li a {
+  color: #777777;
+}
+
+.dark .up_mgall_box .tit {
+  color: #666666;
+}
+
+.dark .btn_red {
+  color: #ffffff;
+}

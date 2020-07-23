@@ -1,0 +1,35 @@
+.dark .left_content, .dark .issuebox, .dark .login_box, .dark .pop_wrap {
+  background-color: transparent;
+}
+
+.dark .minor_intro_box {
+  color: #888888 !important;
+}
+
+.dark .visit_history, .dark .user_option {
+  background-color: #373737;
+}
+
+.dark .visit_history .tit, .dark .page_head h2 a, .dark .user_info {
+  color: #4c5790;
+}
+
+.dark tbody tr:hover {
+  background-color: #272727;
+}
+
+.dark .crt {
+  background-color: #2c2c33;
+}
+
+.dark .gall_issuebox button, .dark .array_tab button, .dark .area_links a {
+  color: #888888;
+}
+
+.dark .center_box ul li a {
+  color: #777777;
+}
+
+.dark .list .gall_tit a:visited {
+  color: #446688;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Dark dcinside",
+  "version": "1.0.0",
+  "description": "Slient night, dark browser",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.dcinside.com/*"],
+      "run_at": "document_start",
+      "css": ["css/common.css", "css/rmad.css", "css/rmnocon.css"],
+      "js": ["toggleCss.js"]
+    },
+    {
+      "matches": ["https://*.dcinside.com/"],
+      "css": ["css/main.css"]
+    },
+    {
+      "matches": ["https://*.dcinside.com/*"],
+      "css": ["css/gall.css"]
+    },
+    {
+      "matches": ["https://*.dcinside.com/board/*", "https://*.dcinside.com/mgallery/board/*"],
+      "css": ["css/board.css"]
+    },
+    {
+      "matches": ["https://*.dcinside.com/board/view*", "https://*.dcinside.com/mgallery/board/view*"],
+      "css": ["css/contents.css"]
+    },
+    {
+      "matches": ["https://*.dcid.dcinside.com/*"],
+      "css": ["css/login.css"]
+    }
+  ],
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/icon256.png"
+  },
+  "offline_enabled": true,
+  "manifest_version": 2
+}
