@@ -1,5 +1,9 @@
-.dark .left_content, .dark .issuebox, .dark .login_box, .dark .pop_wrap {
+.dark .left_content, .dark .issuebox, .dark .login_box, .dark .output_array .select_area {
   background-color: transparent;
+}
+
+.dark .pop_wrap {
+  background-color: #222222;
 }
 
 .dark .minor_intro_box {
@@ -15,15 +19,19 @@
   border-left: 1px solid #656565;
 }
 
-.dark .visit_history, .dark .user_option {
+.dark .visit_history, .dark .user_option, .dark .output_array .option_box {
   background-color: #373737;
+}
+
+.dark .btn_white {
+  background-color: #aaaaaa;
 }
 
 .dark .visit_history .tit, .dark .page_head h2 a, .dark .user_info {
   color: #4c5790;
 }
 
-.dark .visit_history {
+.dark .visit_history, .dark .output_array .select_area, .dark .output_array .option_box {
   border: 1px solid #959595;
 }
 

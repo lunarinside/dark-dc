@@ -1,5 +1,9 @@
-.dark .left_content, .dark .login_box, .dark .under_paging, .dark .pop_wrap {
+.dark .left_content, .dark .login_box, .dark .under_paging {
   background-color: transparent;
+}
+
+.dark .pop_wrap {
+  background-color: #222222;
 }
 
 .dark .visit_history, .dark .box_head, .dark .cate_tit, .dark .user_option {

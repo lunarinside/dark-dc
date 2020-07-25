@@ -1,20 +1,29 @@
-.dark .view_content_wrap, .dark .comment_wrap, .dark .cmt_txt_cont textarea, .dark .btn_cmt_close, .dark .btn_cmt_close span, .dark .btn_cmt_refresh, .dark .btn_cmt_open {
+.dark .view_content_wrap, .dark .comment_wrap, .dark .cmt_txt_cont textarea, .dark .btn_cmt_close, .dark .btn_cmt_close span, .dark .btn_cmt_refresh, .dark .btn_cmt_open, .dark .option_box li {
   color: #888888;
 }
 
-.dark .btn_recommend_box {
+.dark .btn_recommend_box, .dark .select_box.array_latest, .dark .select_arraybox {
   background-color: transparent;
 }
 
 .dark .btn_hitgall, .dark .btn_snsmore, .dark .btn_report {
   background-color: #747474;
   color: #222222;
-  text-shadow: none;
+  text-shadow: 0px 1px #888888;
+  border-right: 1px solid #6e6e6e;
 }
 
-.dark .cmt_write_box, .dark .reply_box, .dark .user_info_input.id input, .dark .cmt_write_box .user_info_input.id > label, .dark .cmt_txt_cont textarea, .dark .pop_wrap {
+.dark .btn_report {
+  border-right: 0;
+}
+
+.dark .cmt_write_box, .dark .reply_box, .dark .user_info_input input, .dark .cmt_write_box .user_info_input.id > label, .dark .cmt_txt_cont textarea, .dark .pop_wrap {
   background-color: #303030;
   color: #888888;
+}
+
+.dark .user_info_input input {
+  background-color: #303030 !important;
 }
 
 .dark .gallview_head {
@@ -26,10 +35,30 @@
   border-width: 0 1px 1px 1px;
 }
 
-.dark .btn_recommend_box, .dark .cmt_txt_cont textarea {
+.dark .btn_recommend_box, .dark .cmt_txt_cont textarea, .dark .user_info_input {
   border: 1px solid #6e6e6e;
 }
 
 .dark .cmt_info, .dark .comment_wrap .bottom_paging_box, .dark .recom_bottom_box, .dark .reply_list li {
   border-top: 1px solid #777777;
+}
+
+.dark .select_box.array_latest, .dark .select_arraybox {
+  border: 1px solid #959595;
+  color: #888888;
+}
+
+.dark .option_box {
+  background-color: #373737;
+  border: 1px solid #959595;
+}
+
+.dark .icon_recom_up, .dark .icon_recom_down {
+  width: 57px;
+  height: 57px;
+}
+
+.dark .icon_guide_open {
+  width: 18px;
+  height: 17px;
 }

@@ -2,6 +2,18 @@ html.dark {
   background-color: #222222;
 }
 
-.dark body, .dark th, .dark td, .dark a, .dark .options, .dark .options a, .dark .content_box, .dark .info_txtlist {
+.dark .inner_search, .dark .bottom_array .select_area, .dark .bottom_array .option_box {
+  background-color: #303030;
+}
+
+.dark body, .dark th, .dark td, .dark a, .dark .options, .dark .options a, .dark .content_box, .dark .info_txtlist, .dark .in_keyword {
   color: #888888
+}
+
+.dark .sp_img {
+  background-image: url('chrome-extension://jbfnfkmmbgepliobopdjdcehfkiemcje/img/sp_img.png');
+}
+
+.dark .sp_loginout {
+  background-image: url('chrome-extension://jbfnfkmmbgepliobopdjdcehfkiemcje/img/sp_loginout.png');
 }
