@@ -21,10 +21,15 @@
   border-bottom: 1px solid #777777;
 }
 
+.dark .reply_box {
+  border: 1px solid #6e6e6e;
+  border-width: 0 1px 1px 1px;
+}
+
 .dark .btn_recommend_box, .dark .cmt_txt_cont textarea {
   border: 1px solid #6e6e6e;
 }
 
-.dark .cmt_info, .dark .comment_wrap .bottom_paging_box, .dark .recom_bottom_box {
+.dark .cmt_info, .dark .comment_wrap .bottom_paging_box, .dark .recom_bottom_box, .dark .reply_list li {
   border-top: 1px solid #777777;
 }
