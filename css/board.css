@@ -6,12 +6,33 @@
   color: #888888 !important;
 }
 
+.dark .area_links li::before, .dark .gall_issuebox button::before, .dark .user_option span::before {
+  color: #888888;
+}
+
+.dark .minor_ranking_box {
+  background-color: #838383;
+  border-left: 1px solid #656565;
+}
+
 .dark .visit_history, .dark .user_option {
   background-color: #373737;
 }
 
 .dark .visit_history .tit, .dark .page_head h2 a, .dark .user_info {
   color: #4c5790;
+}
+
+.dark .visit_history {
+  border: 1px solid #959595;
+}
+
+.dark .array_tab button {
+  border: 1px solid #8c8c8c;
+}
+
+.dark td {
+  border-top: 1px solid #777777;
 }
 
 .dark tbody tr:hover {

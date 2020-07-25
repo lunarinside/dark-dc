@@ -6,11 +6,36 @@
   background-color: #373737;
 }
 
+.dark .visit_history, .dark .hot_gall_box, .dark .hotcate_list .cate_wrap, .dark .minor_wrap.gallmain .visit_history {
+  border: 1px solid #959595;
+}
+
+.dark .block_line, .dark .under_paging, .dark .up_mgall_box {
+  border-top: 1px solid #959595;
+}
+
+.dark .hotcate_list .top_cate_wrap .cate_box {
+  border-top-color: #959595;
+}
+
+.dark .cate_wrap {
+  border: 1px solid #959595;
+  border-top: 3px solid #4c5790;
+}
+
+.dark .cate_tit {
+  border-bottom: 1px solid #959595;
+}
+
+.dark .section_cate, .dark .severalcan .cate, .dark .new_magll_box {
+  border-left: 1px solid #959595;
+}
+
 .dark .head_tit a, .dark .head_tit, .dark .visit_history .tit, .dark .cate_tit {
   color: #4c5790;
 }
 
-.dark .minor_wrap.gallmain .left_content .mgall_info .txt, .dark .minor_wrap.gallmain .visit_list li a, .dark .page_num {
+.dark .minor_wrap.gallmain .left_content .mgall_info .txt, .dark .minor_wrap.gallmain .visit_list li a, .dark .page_num, .dark .area_links li::before, .dark .user_option span::before {
   color: #888888;
 }
 

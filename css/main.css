@@ -1,3 +1,16 @@
-.dark .options, .dark .options a, .dark .content_box, .dark .info_txtlist {
+.dark .options > a:after , .dark .tab_comm li a:before {
+  background-color: #959595;
+}
+
+.dark .box_bottom {
+  background-color: #333333;
+  color: #777777;
+}
+
+.dark .img_box, .dark .content_box {
+  border: 1px solid #959595;
+}
+
+.dark .options, .dark .options a, .dark .content_box, .dark .info_txtlist, .dark .issue_zoom .txt_box {
   color: #888888;
 }

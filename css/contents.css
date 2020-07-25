@@ -1,4 +1,4 @@
-.dark .view_content_wrap, .dark .comment_wrap, .dark .cmt_txt_cont textarea {
+.dark .view_content_wrap, .dark .comment_wrap, .dark .cmt_txt_cont textarea, .dark .btn_cmt_close, .dark .btn_cmt_close span, .dark .btn_cmt_refresh, .dark .btn_cmt_open {
   color: #888888;
 }
 
@@ -6,7 +6,25 @@
   background-color: transparent;
 }
 
+.dark .btn_hitgall, .dark .btn_snsmore, .dark .btn_report {
+  background-color: #747474;
+  color: #222222;
+  text-shadow: none;
+}
+
 .dark .cmt_write_box, .dark .reply_box, .dark .user_info_input.id input, .dark .cmt_write_box .user_info_input.id > label, .dark .cmt_txt_cont textarea, .dark .pop_wrap {
   background-color: #303030;
   color: #888888;
+}
+
+.dark .gallview_head {
+  border-bottom: 1px solid #777777;
+}
+
+.dark .btn_recommend_box, .dark .cmt_txt_cont textarea {
+  border: 1px solid #6e6e6e;
+}
+
+.dark .cmt_info, .dark .comment_wrap .bottom_paging_box, .dark .recom_bottom_box {
+  border-top: 1px solid #777777;
 }
